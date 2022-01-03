@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+
+<body>
+
+    <h2>Formular</h2>
+    <form action="form.html" method="get">
+
+        <fieldset>
+            <legend>Persönliche Daten</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Geben Sie Ihren Namen ein" pattern=".*Antonio.*"> <br><br>
+            <label for="m">männlich</label>
+            <input type="radio" name="geschlecht" id="m" value="m">
+            <label for="w">weiblich</label>
+            <input type="radio" name="geschlecht" id="w" value="w">
+            <label for="d">divers</label>
+            <input type="radio" name="geschlecht" id="d" value="d">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Login Daten</legend>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" placeholder="Geben Sie Ihre E-Mail ein" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"> <br><br>
+            <label for="password">Passwort</label>
+            <input type="password" name="password" id="password" placeholder="Geben Sie Ihr Passwort ein" title="Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character." pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+        </fieldset>
+        <br>
+        <button type="submit">Registrieren</button>
+
+    </form>
+    
+</body>
+
+</html>

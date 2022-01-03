@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputarten</title>
+</head>
+
+<body>
+
+    <h1>Formulareingaben</h1>
+
+    <h2>Input für Text</h2>
+
+    <h3>Input-Type: text</h3>
+    <input type="text">
+
+    <h3>Input-Type: password</h3>
+    <input type="password">
+
+    <h3>Input-Type: search</h3>
+    <input type="search">
+
+    <h3>Input-Type: email</h3>
+    <input type="email">
+
+    <h3>Input-Type: url</h3>
+    <input type="url">
+
+    <h3>Input-Type: tel</h3>
+    <input type="tel">
+
+    <h2>Input für Zeitangaben</h2>
+
+    <h3>Input-Type: date</h3>
+    <input type="date">
+
+    <h3>Input-Type: datetime-local</h3>
+    <input type="datetime-local">
+
+    <h3>Input-Type: month</h3>
+    <input type="month">
+
+    <h3>Input-Type: week</h3>
+    <input type="week">
+
+    <h3>Input-Type: time</h3>
+    <input type="time">
+
+    <h2>Input für Zahlen</h2>
+
+    <h3>Input-Type: number</h3>
+    <input type="number">
+
+    <h3>Input-Type: range</h3>
+    <input type="range">
+
+    <h2>Sonstige Inputs</h2>
+    
+    <h3>Input-Type: hidden</h3>
+    <input type="hidden">
+
+    <h3>Input-Type: color</h3>
+    <input type="color">
+
+    <h2>weitere Eingabemöglichkeiten für den User</h2>
+
+    <h3>Input-Type: radio</h3>
+    <p>Dient der eindeutigen Auswahl</p>
+    
+    <p>Welche Farbe beschreibt das Kürzel #FFF?</p>
+    <input type="radio" name="frage1" value="rot">Rot
+    <input type="radio" name="frage1" value="schwarz">Schwarz
+    <input type="radio" name="frage1" value="weiss">Weiß
+    <input type="radio" name="frage1" value="gruen">Grün
+
+    <h3>Input-Type: checkbox</h3>
+    <p>Dient der Mehrfachauswahl</p>
+    
+    <p>Welche Sportart brtreiben Sie am liebsten?</p>
+    <input type="checkbox" name="sportart" value="schwimmen">Schwimmen
+    <input type="checkbox" name="sportart" value="fussball">Fußball
+    <input type="checkbox" name="sportart" value="karate">Karate
+    <input type="checkbox" name="sportart" value="handball">Handball
+
+    <h3>Weiterer Typ: select</h3>
+    <p>Dient der Einfach- / Mehrfachauswahl bestimmter Begriffe</p>
+
+    <select name="obst" size="1">
+        <option value="pflaume">Pflaume</option>
+        <option value="apfel">Apfel</option>
+        <option value="birne">Birne</option>
+        <option value="kiwi">Kiwi</option>
+        <option value="mango">Mango</option>
+    </select>
+
+    <h4>Select mit Optionsgruppe</h4>
+
+    <select name="programmiersprachen" multiple>
+        <optgroup label="Frontend-Sprachen">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+        </optgroup>
+        <optgroup label="Backend=Sprachen">
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+            <option value="c++">C++</option>
+        </optgroup>
+    </select>
+
+    <h3>textarea</h3>
+    <p>Dient dem Erfassen von mehr Text</p>
+    <textarea name="kommentar" cols="200" rows="20">Bitten geben Sie hier Ihr Kommentar ab.</textarea>
+
+    <h2>Buttons</h2>
+
+    <h3>Allgemeiner Button</h3>
+    <button type="button">Beliebige Beschriftung oder auch ein Bild</button>
+
+    <h3>Submit-Button</h3>
+    <button type="submit">Ich bin ein Submit</button>
+
+    <h3>Reset-Button</h3>
+    <button type="reset">Ich bin ein Resete</button>
+
+    <p>Alte Alternativen:</p>
+    <input type="button" value="beliebiger Button">
+    <input type="submit" value="Submit-Button">
+    <input type="reset" value="Reset-Button">
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+
+
+    
+
+    
+</body>
+
+</html>
